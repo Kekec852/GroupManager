@@ -45,6 +45,14 @@ public abstract class PermissionsReaderInterface {
     public abstract boolean inGroup(String string, String string1);
 
     /**
+     * 
+     * @param string
+     * @param string1
+     * @return
+     */
+    public abstract boolean inSingleGroup(String string, String string1);
+
+    /**
      *
      * @param string
      * @return

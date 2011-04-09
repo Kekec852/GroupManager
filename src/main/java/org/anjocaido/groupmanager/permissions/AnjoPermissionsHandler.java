@@ -99,6 +99,18 @@ public class AnjoPermissionsHandler extends PermissionsReaderInterface {
     }
 
     /**
+     * Verify if a player is in a single group.
+     * 
+     * @param name
+     * @param group
+     * @return
+     */
+    @Override
+    public boolean inSingleGroup(String name, String group) {
+        return listAllGroupsInherited(ph.getUser(name).getGroup()).size() == 1;
+    }
+    
+    /**
      * Returns the String prefix for the given group
      * @param groupName
      * @return empty string if found none.
