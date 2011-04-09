@@ -47,11 +47,10 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>0.0.1</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/../bukkit-0.0.1-SNAPSHOT.jar</systemPath>
+        	<groupId>org.bukkit</groupId>
+        	<artifactId>bukkit</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        	<scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.yaml</groupId>
